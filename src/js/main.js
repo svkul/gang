@@ -8,7 +8,7 @@ const closeIcon = document.getElementById("close-icon");
 const closePopupIcon = document.getElementById("close-popup-icon");
 const popup = document.getElementById("popup");
 const popupContent = popup?.querySelector(".popup__content");
-const ticketButtons = document.querySelectorAll(".button--main, .hero__button");
+const ticketButtons = document.querySelectorAll(".button-popup");
 
 copyright.textContent = new Date().getFullYear();
 
